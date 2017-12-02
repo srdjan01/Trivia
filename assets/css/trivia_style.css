@@ -1,0 +1,67 @@
+div {
+  margin-bottom: 20px;
+}
+
+.correct, .incorrect {
+  text-transform: capitalize;
+}
+
+div.jumbotron {
+	text-align: center;
+}
+
+button#start_button{
+	display: block;
+	margin: auto;
+}
+
+div.container {
+	text-align: center;
+}
+
+div.jBackground {
+	background-image: url('../images/europe-map.gif');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div.jFooter {
+	background-color: #40bfef;
+}
+
+div.mainBody {
+	min-height: 200px;
+}
+
+button {
+	color: #fff;
+    background-color: #337ab7;
+    padding: 10px 16px;
+    margin-right: 2px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    background-image: none;
+    border: 1px solid black;
+    border-color: #2e6da4;
+    width: 200px;
+}
+
+.correct {
+	color: green;
+}
+
+.incorrect {
+	color: red;
+}
+
+#question_div {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+#outOfTime {
+	font-weight: bold;
+	font-size: 1.5em;
+	color: red;
+}
